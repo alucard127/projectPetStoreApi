@@ -544,8 +544,6 @@ public class PetStoreTest extends BasePetStore {
                 .get("store/order/1")
                 .then()
                 .statusCode(HttpStatus.SC_OK);
-
-
     }
 
 //#8. Delete: verify that not allowed orders cannot be deleted, a status code 405  is shown
@@ -555,9 +553,5 @@ public class PetStoreTest extends BasePetStore {
                 .get("store/order")
                 .then()
                 .statusCode(HttpStatus.SC_METHOD_NOT_ALLOWED);
-
-
     }
-
-
 }

@@ -537,13 +537,13 @@ public class PetStoreTest extends BasePetStore {
                 .statusCode (HttpStatus.SC_OK);
     }
 
-//#7. Delete: verify that when searching for a deleted order a status code 404 is shown
+//#7. Delete: Verify that when an order is removed from the store a status code 200  is show
     @Test
     public void deletePurchaseOrderById() {
         given()
                 .get("store/order/1")
                 .then()
-                .statusCode(HttpStatus.SC_NOT_FOUND);
+                .statusCode(HttpStatus.SC_OK);
 
 
     }

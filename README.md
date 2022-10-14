@@ -41,3 +41,7 @@ export class AppComponent {
 </ul>
 
 https://www.pcprogramasymas.net/aprender-php-mysql-y-javascript-con-jquery-css-y-html5-5a-edi-pdf/
+https://www.youtube.com/watch?v=QmFpyys4W4w
+https://itoo.dev/p/curso-php-mysql-gratis
+https://www.tecnoriales.com/2018/01/users-php-mysql-desde-cero-pdf.html
+https://issuu.com/redusers/docs/php___mysql_desde_cero_issuu

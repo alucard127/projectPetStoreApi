@@ -39,3 +39,5 @@ export class AppComponent {
         <button (click)="deleteItem(i)")>delete</button>
     </li>
 </ul>
+
+https://www.pcprogramasymas.net/aprender-php-mysql-y-javascript-con-jquery-css-y-html5-5a-edi-pdf/
